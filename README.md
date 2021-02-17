@@ -4,7 +4,7 @@
   Assignment Tracker
   <br>
 
-<h4 align="center">Leverages the Canvas LMS API to pull upcoming assignments. Results are manipulated into a simple list, sorted by due date and can be filtered by course. Built to keep track of upcoming assignments and set priorities.</h4>
+<h4 align="center">Leverages the Canvas LMS API to pull upcoming assignments. Results are manipulated into a simple list, sorted by due date, and can be filtered by course. Built to keep track of upcoming assignments and set priorities.</h4>
 
 <p align="center">
   <a href="#built-with">Built With</a> •
@@ -16,8 +16,8 @@
 
 ## Screenshots
 
-![screenshot1]()
-![screenshot2]()
+![screenshot1](https://github.com/pahammer/assignment-tracker/blob/main/screenshots/img1.png)
+![screenshot2](https://github.com/pahammer/assignment-tracker/blob/main/screenshots/img2.png)
 
 ## Built With
 
@@ -53,16 +53,20 @@ $ cd assignment-tracker/react-frontend
 # Install dependencies
 $ npm install
 
-# Run the app
+# Run the frontend app
 $ npm start
 ```
 
 #### Backend:
 
 ```bash
-# Go into the repository
-# Run startup script (Linux)
-$ ./start.sh
+# Go into the repository and again into the flask-backend directory
+$ cd assignment-tracker/flask-backend
+# (RECOMMENDED) Create or activate virtual env
+# Install requirements
+$ pip install -r requirements.txt
+# Run backend app
+$ python3 main.py
 ```
 
 ## License
